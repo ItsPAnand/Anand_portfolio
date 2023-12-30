@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(../images/astronaut-4106766_1920.jpg);
+    background-image: url(/images/astronaut-4106766_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
