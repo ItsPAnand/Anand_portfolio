@@ -30,7 +30,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: white; text-decoration: solid;">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#"
+                            style="color: white; text-decoration: solid;">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about" style="color: white; text-decoration: solid;">About</a>
@@ -168,8 +169,7 @@
                 </div>
                 <div class="col-md-3 pb-4">
                     <div class="card text-center">
-                        <img src="./images/bootstrap-logo.jpg" class="card-img-top w-50 m-auto py-3"
-                            alt="c-logo">
+                        <img src="./images/bootstrap-logo.jpg" class="card-img-top w-50 m-auto py-3" alt="c-logo">
                         <div class="card-body">
                             <h5 class="card-title">BootStrap</h5>
                             <p class="card-text">Basic proficiency in Bootstrap, capable of leveraging its framework for
@@ -189,22 +189,22 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <form>
+                    <form action="https://formspree.io/f/mdoqoayv" method="post">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                            <input name="Name" type="text" class="form-control" id="name" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
                             <label for="mobile-no" class="form-label">Mobile no</label>
-                            <input type="number" class="form-control" id="mobile-no" aria-describedby="emailHelp">
+                            <input name="Mobile no" type="number" class="form-control" id="mobile-no" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
                             <label for="email-id" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email-id" aria-describedby="emailHelp">
+                            <input name="Email id" type="email" class="form-control" id="email-id" autocomplete="off" required>
                         </div>
                         <div class="mb-3">
                             <label for="subject" class="form-label">Subject</label>
-                            <textarea class="form-control" id="subject" rows="3"></textarea>
+                            <textarea name="Subject" class="form-control" id="subject" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
